@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAIM FITNESS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <form action="#">
+                <div class="title">
+                    <h1>CADASTRE-SE NA PAIM FITNESS</h1>
+                </div>
+                <DIV class="basics">
+                    <fieldset class="field-basics">
+                        <legend class="legend">INFORMAÇÕES PARA CONTATO</legend>
+                        <div> 
+                    <label for="name" required >NOME:</label><br>
+                    <input type="text" name="name">
+                        </div>
+
+                          <div> 
+                    <label for="lastname" required >SOBRENOME:</label><br>
+                    <input type="text" name="lastname">
+                        </div>
+
+                      <div> 
+                    <label for="tel">TELEFONE:</label><br>
+                    <input type="tel" name="tel" required placeholder="(  ) xxxxx-xxxx">
+                        </div>
+
+                        <div> 
+                        <label for="email" required>E-MAIL:</label><br>
+                        <input type="email" name="email">
+                       </div>     
+                    </fieldset>
+                </DIV> <br>
+                <div class="body-informations">
+                    <fieldset class="field-body">
+                        <legend class="legend">INFORMAÇÕES CORPORAIS</legend>
+                        <div class="gender">
+                    
+                            <select name="gender" id="gender">
+                                <option value="male" selected disabled>GÊNERO</option>
+                                <option value="male">MASCULINO</option>
+                                <option value="female">FEMININO</option>
+                                <option value="other">OUTRO</option>
+                                <option value="none">PREFIRO NÃO DIZER</option>
+                            </select>
+                        </div><br>
+                        <div class="biotipo">
+    
+                            <select name="goal" id="goal">
+                                <option value="male" selected disabled>OBJETIVO</option>
+                                <option value="lose">PERDER PESO</option>
+                                <option value="gain">GANHAR MASSA</option>
+                                <option value="strong">GANHAR FORÇA</option>
+                                <option value="functional">FUNCIONAL</option>
+                            </select>
+                        </div>
+                    </fieldset><br>
+                    <div>
+                    <input type="submit" value="ENVIAR INFORMAÇÕES">
+                    </div>
+                </div>
+
+
+
+
+
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
